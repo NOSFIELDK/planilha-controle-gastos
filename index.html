@@ -160,6 +160,14 @@
   .final p{color:var(--muted);margin:18px auto 32px;max-width:480px;font-size:17px}
   .guarantee{margin-top:22px;font-size:14px;color:var(--muted)}
 
+  /* ---------- Faixa de garantia ---------- */
+  .guarantee-band{display:flex;align-items:center;gap:26px;background:linear-gradient(180deg,rgba(245,196,81,.10),transparent 70%),var(--ink-2);border:1px solid rgba(245,196,81,.35);border-radius:var(--radius);padding:30px 34px}
+  .gb-seal{flex:none;width:68px;height:68px;border-radius:50%;background:radial-gradient(circle at 32% 26%,#FBE08A,var(--gold));display:grid;place-items:center;color:#06241A;box-shadow:0 12px 28px -8px rgba(245,196,81,.55)}
+  .gb-text h3{font-size:21px;color:var(--white);margin-bottom:5px}
+  .gb-text p{font-size:15px;color:var(--muted);max-width:640px}
+  .gb-text .law{display:inline-block;margin-top:10px;font-size:12px;color:var(--gold);opacity:.9}
+  @media(max-width:560px){.guarantee-band{flex-direction:column;text-align:center;gap:18px;padding:28px 22px}}
+
   footer{border-top:1px solid var(--line);padding:32px 0;text-align:center;color:var(--muted);font-size:13px}
 
   @media(max-width:880px){
@@ -267,6 +275,20 @@
   </div>
 </section>
 
+<!-- GARANTIA -->
+<section class="wrap">
+  <div class="guarantee-band">
+    <div class="gb-seal">
+      <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+    </div>
+    <div class="gb-text">
+      <h3>Garantia incondicional de 7 dias</h3>
+      <p>Comprou e não gostou? É só pedir: devolvemos 100% do seu dinheiro em até 7 dias, sem perguntas e sem burocracia.</p>
+      <span class="law">✓ Direito assegurado pelo Código de Defesa do Consumidor (art. 49)</span>
+    </div>
+  </div>
+</section>
+
 <!-- PASSOS -->
 <section class="block" style="background:var(--ink-2)">
   <div class="wrap">
@@ -299,7 +321,7 @@
     <h2>Comece o próximo mês sabendo exatamente onde está o seu dinheiro</h2>
     <p>Pare de adivinhar e assuma o controle das suas finanças hoje mesmo. Acesso imediato, para usar a vida toda.</p>
     <a href="https://pay.cakto.com.br/384obau_930417" class="btn btn-primary" style="font-size:18px;padding:18px 36px">Garantir minha planilha agora →</a>
-    <p class="guarantee">🔒 Compra segura · Acesso imediato após a confirmação</p>
+    <p class="guarantee">🔒 Compra segura · Acesso imediato · Garantia de 7 dias</p>
   </div>
 </section>
 
